@@ -9,7 +9,7 @@
 
 ✟︙ الكود ،
 
-git clone https://github.com/TEAMFAEDER/FAEDER.git && cd FAEDER  && chmod +x tg && chmod +x RUNFA.sh && chmod +x FA && ./RUNFA.sh
+git clone https://github.com/redwanrawbot0/redbotraw.git && cd FAEDER  && chmod +x tg && chmod +x RUNFA.sh && chmod +x FA && ./RUNFA.sh
 
 • ┉ • ┉ • ┉ • ┉ • ┉ • ┉ • ┉ •
 
@@ -33,8 +33,8 @@ rm -rf FAEDER
 
 ✟︙للاستفسار واضافه الافكار  🔽
 
-✟︙ مبرمج السورس @kkkkf 
+✟︙ مبرمج السورس @redwanraw 
 
-✟︙ قناة السورس @faeder_ch
+✟︙ قناة السورس @T_Y_G
 
-✟︙ كروب الدعم https://t.me/joinchat/TXKJWVCCy9FF6g6cjajRGA
+✟︙ كروب الدعم https://t.me/T_Y_G
