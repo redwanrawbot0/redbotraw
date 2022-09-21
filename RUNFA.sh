@@ -55,7 +55,7 @@ sudo apt-get install libreadline-dev libconfig-dev libssl-dev lua5.2 liblua5.2-d
 echo -e "\e[38;5;77m       •{ install source Faeder [100%]  }•\e[0m"
 sudo apt-get update 
 sudo apt-get upgrade -y
-echo -e "\e[38;5;77m       •{ •{ Join the Source Channel : @Faeder_Ch }• }•\e[0m"
+echo -e "\e[38;5;77m       •{ •{ Join the Source Channel : @T_Y_G }• }•\e[0m"
 
 echo -e "\e[38;5;77m       _ _    _   _ \e[0m"
 echo -e "\e[38;5;77m       |  _/ \  | |  _ \| |  _ \\e[0m"
@@ -63,8 +63,8 @@ echo -e "\e[38;5;77m       | |_ / _ \ |  _| | | | |  _| | |_) |\e[0m"
 echo -e "\e[38;5;77m       |  _/ _ \| |_| |_| | |_|  _ <\e[0m"
 echo -e "\e[38;5;77m       |_|/_/   \_\_|/|_|_| \_\\e[0m"
 
-echo -e "\e[38;5;77m       •{ Faeder source has been installed }•\e[0m"
-echo -e "\e[38;5;77m       •{ Source developer : @KKKKF }•\e[0m"
+echo -e "\e[38;5;77m       •{ red source has been installed }•\e[0m"
+echo -e "\e[38;5;77m       •{ Source developer : @redwanraw }•\e[0m"
 cd ..
 rm -rf luarocks*
 cd && cd $THIS_DIR
