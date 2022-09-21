@@ -54,14 +54,10 @@ local Foldir = io.popen("echo $(cd $(dirname $0); pwd)"):read('*all'):gsub(' ','
 getuser = {}
 getuser.username = username
 getuser.Source  = Foldir
-local url , res = https.request('https://faeder.net/Faeder/index.php?Array='..JSON.encode(getuser))
-if res ~= 200 then
-io.write("\27[31;47m◼¦ حدث خطأ في الاتصال بالسيرفر ، يرجى مراسلة مطور السورس { @KKKKF } ليتمكن من حل المشكلة في اسرع وقت ممكن! \27[0;m\n")
-os.exit()
-end
+
 Getresult, Getuser = pcall(JSON.decode, url)
 if not Getresult then
-io.write("\27[31;47m◼¦ حدث خطأ في سكرب الاستخراج ، يرجى مراسلة مطور السورس { @KKKKF } ليتمكن من حل المشكلة في اسرع وقت ممكن! \27[0;m\n")
+io.write("\27[31;47m◼¦ حدث خطأ في سكرب الاستخراج ، يرجى مراسلة مطور السورس { @redwanraw } ليتمكن من حل المشكلة في اسرع وقت ممكن! \27[0;m\n")
 os.exit()
 end
 if not Getuser.ok then
