@@ -56,10 +56,7 @@ getuser.username = username
 getuser.Source  = Foldir
 
 Getresult, Getuser = pcall(JSON.decode, url)
-if not Getresult then
-io.write("\27[31;47m◼¦ حدث خطأ في سكرب الاستخراج ، يرجى مراسلة مطور السورس { @redwanraw } ليتمكن من حل المشكلة في اسرع وقت ممكن! \27[0;m\n")
-os.exit()
-end
+
 if not Getuser.ok then
 if Getuser.result then
 io.write("\27[31;47m◼¦ "..Getuser.result.." \27[0;m\n")
